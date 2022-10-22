@@ -4,8 +4,6 @@ This is a simple dependency graph solver based on a question I saw on HackerRank
 
 ## Usage
 
----
-
 The CLI takes two arguments:
 
 ### 1. The Tasks File
