@@ -1,0 +1,33 @@
+[
+    {
+        "name": "A",
+        "files": [
+            "about.md",
+            "001.py"
+        ],
+        "deps": []
+    },
+    {
+        "name": "B",
+        "files": [],
+        "deps": [
+            "A"
+        ]
+    },
+    {
+        "name": "C",
+        "files": [
+            "002.py"
+        ],
+        "deps": [
+            "B"
+        ]
+    },
+    {
+        "name": "D",
+        "files": [],
+        "deps": [
+            "C"
+        ]
+    }
+]
