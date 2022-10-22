@@ -6,11 +6,16 @@ This is a simple dependency graph solver based on a question I saw on HackerRank
 
 The CLI takes two arguments:
 
+```sh
+cargo run -- tasks.json changed_files.json
+```
+
 ### 1. The Tasks File
 
 This is a JSON file containing the tasks in the following shema.
 
 ```json
+// tasks.json
 [
     {
         "name": "A",
@@ -36,6 +41,7 @@ This is a JSON file containing the tasks in the following shema.
 This is a JSON file containing the files changed as a list of strings.
 
 ```json
+// changed_files.json
 [
     "about.md",
     "001.py",
